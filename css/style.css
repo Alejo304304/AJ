@@ -73,6 +73,7 @@
   	font-size: 15px;
   	margin: 40px 9px 9px 9px;
   }
+  .movile_service_title h1{ display: none;}
   /*-------------------------*/
 
 
@@ -239,7 +240,7 @@
  header {
   background: #171717;
 	color: white;
-	height: 500px;
+	height: 440px;
 	width: 100%;
 	left: 0;
 	top: 0;
@@ -247,7 +248,7 @@
 
   #navigation_bar {
     width: 100%;
-    height: 100px;
+    height: 110px;
     background-color: blue;
   }
 
@@ -280,11 +281,105 @@
     text-decoration: none;
   }
   .option_bar .contacto, .servicios {
-    margin: 10px;
+    margin: 15px;
   }
+
+  #main_head {
+    width: 100%;
+    height: 225px;
+    background-color: green;
+  }
+  .name_designer{
+    background-color: red;
+    width: 80%;
+    height: 110px;
+    text-align: center;
+  }
+
+  .name_designer a{
+    color: #fff;
+    font-family: "font_nav" ;
+    font-size: 45px;
+    text-decoration: none;
+  }
+
+  .freelance_designer{
+    background-color: blue;
+    width: 80%;
+    height: 35px;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .freelance_designer a{
+    color: #fff;
+    font-family: "font_title_main" ;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+  .job_designer {
+    text-align: center;
+    width: 98%;
+    height: 50px;
+    background-color: red;
+    margin: 15px auto;
+  }
+  .job_designer a{
+    color: #BEBEBE;
+    font-family: "font_title_main";
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  #main_page {
+    background-color: blue;
+    width: 100%;
+  }
+ .movile_service_title {
+   width: 90%;
+   height: 40px;
+   text-align: center;
+   margin: 60px auto;
+   background-color: grey;
+ }
+ .movile_service_title h1{
+   color: #fff;
+   font-family: "font_title_main";
+   font-size: 25px;
+   text-decoration: none;
+ }
+  #container_jobs {
+    background-color: white;
+    width: 98%;
+    height: 2000px;
+  }
+
+ #container_jobs .brandig, .layout, .publicity, .packaging, .modeling {
+   margin: 15px 15px 15px 15px;
+   padding: 5px 5px;
+   width: 90%;
+   height: auto;
+   background-color: green;
+ }
+#container_jobs section img, .brandig_text, .layout_text, .publicity_text, .packaging_text, .modeling_text {
+  margin: 7px 5%;
+  width: 200px;
+  height: auto;
+}
+
+#container_jobs section .subtitle_jobs {
+  font-family: "font_title_main";
+  font-size: 23px;
+  color: #000000;
+}
+#container_jobs section .text_jobs {
+  font-family: "font_tex_main";
+  font-size: 20px;
+  color: #000000;
+}
 
 
 .brandig_contents img, .layout_contents img, .publicity_contents img, .modeling_contents img, .packaging_contents img{
-  display: none;
+  width: 100px;
 }
 }
