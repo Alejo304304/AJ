@@ -86,17 +86,12 @@
                 .respmenu input[type="checkbox"] {
                   opacity: 0;
                 }
-
                 .respmenu {
                   color: #00181C;
                   position: relative;
                   background: #fff;
                   min-height: 50px;
                 }
-
-
-
-
                 nav ul {
                   background-color: #00181C;
                   box-shadow: 2px 2px 5px #505050;
