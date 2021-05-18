@@ -1,0 +1,258 @@
+/* fuentes personalizadas*/
+  @font-face {
+    font-family: "font_sans";
+    src: url("../../font/sans.ttf");
+  }
+  @font-face {
+      font-family: "font_roboto";
+      src: url("../../font/roboto.ttf");
+  }
+  @font-face {
+      font-family: "font_roboto_bold";
+      src: url("../../font/roboto_bold.ttf");
+  }
+
+/*-----------------------------------------*/
+@media (min-width: 1024px) and (max-width: 1400px) {
+* {
+  margin: auto;
+  padding: 0;
+  image-rendering:-moz-crisp-edges;
+  image-rendering:-o-crisp-edges;
+  image-rendering:-webkit-optimize-contrast;
+  image-rendering:optimize-contrast;
+  -ms-interpolation-mode:nearest-neighbor;
+  transition-duration: 0.5s;
+  transition: 0.5s;
+}
+  .respmenu input, .respmenu label {
+    display: none;
+  }
+body {
+  background: #090921;
+}
+/*---BARRA DE NAVEGACION--*/
+#barra_navegacion {
+  width: 100%;
+  height: 70px;
+  padding-left: 10%;
+  padding-right: 12%;
+  background-color: #090921;
+  position: fixed;
+  box-shadow: 2px 2px 5px #090921;
+}
+   .barra_navegacion {
+    width: 85%;
+    height: 70px;
+  }
+  .icon_nav {
+    width: 60px;
+    height: 60px;
+    margin-left: 10%;
+    margin-top: 10px;
+    float: left;
+    border-radius: 30%;
+    transition: 0.7s;
+  }
+    .icon_nav:hover {
+      background-color: #F23041;
+      border-radius: 100%;
+      transition: 0.7s;
+    }
+  .icon_nav img {
+    height: 50px;
+    margin: 5px;
+  }
+  .respmenu {
+    float: right;
+    width: 400px;
+    height: 30px;
+    margin-right: 10%;
+    margin-top: 25px;
+  }
+
+  nav ul li{
+    margin-right: 30px;
+    padding-bottom: 8px;
+    display: inline-block;
+  }
+      nav ul li:hover {
+        background: url('../../img/header/nav/barra_nav.png') no-repeat;
+        background-position: bottom;
+        background-size: 100% 4px;
+        transition: 0.7s;
+      }
+  nav ul li a {
+    color: #fff;
+    font-family: "font_sans";
+    font-size: 16px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.7s;
+  }
+      nav ul li a:hover {
+        transition-duration: 0.7s;
+        transition: color 0.7s;
+      }
+/*----------------------*/
+/*--------HEAD-MAIN---------*/
+#head_main {
+  width: 100%;
+  height: 550px;
+  padding-top: 90px;
+}
+.head_main {
+  width: 85%;
+  height: 550px;
+}
+.freelance_head_main {
+  width: 400px;
+  height: 200px;
+  margin: 0px;
+  margin-left: 5%;
+}
+  .freelance_head_main h1 {
+    font-family: "font_sans";
+    font-size: 5rem;
+    color: #F23041;
+  }
+
+.alejo_head_main {
+  width: 350px;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: 150px;
+}
+  .alejo_head_main h2{
+    font-family: "font_sans";
+    font-size: 3rem;
+    color: #fff;
+  }
+.dino_head_main {
+  width: 600px;
+  height: 550px;
+  margin-top: -550px;
+  float: right;
+  background: url('../../img/main/head_main/dino_main.png') no-repeat;
+  background-position: right;
+  background-size:  auto 100%;
+}
+
+#color2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #1B0126;
+}
+
+#quien_soy {
+  width: 100%;
+  height: 500px;
+}
+  .quien_soy {
+    width: 80%;
+    height: 500px;
+  }
+  .titulo_quien_soy {
+    width: 100%;
+    height: 90px;
+    margin: 0;
+  }
+      .titulo_quien_soy h1{
+        font-family: "font_sans";
+        font-size: 4rem;
+        color: #F23041;
+      }
+  .texto_quien_soy {
+    width: 50%;
+    height: 100px;
+    margin: 0;
+    padding-top: 20px;
+  }
+      .texto_quien_soy p {
+        font-family: "font_roboto";
+        font-size: 1rem;
+        color: #fff;
+
+      }
+  .subtitulo_quien_soy {
+    width: 70%;
+    height: 160px;
+    margin: 0;
+  }
+      .subtitulo_quien_soy h2 {
+        font-family: "font_sans";
+        font-size: 3rem;
+        padding: 10px;
+        color: #56BFAC;
+      }
+  .img_quien_soy {
+    width: 220px;
+    height: 220px;
+    float: right;
+    background-color: #090921;
+    border-radius: 100%;
+    margin-top: -330px;
+    margin-right: 50px;
+    transition: 0.7s;
+  }
+    .img_quien_soy:hover {
+      background-color: #F23041;
+      border-radius: 100%;
+      cursor: pointer;
+      transition: 0.7s;
+    }
+    .img_quien_soy img {
+      width: 220px;
+      height: 220px;
+    }
+  .icons_quien_soy {
+    width: 220px;
+    height: 50px;
+    float: right;
+    margin-top: -80px;
+    margin-right: 50px;
+    display: flex;
+  }
+    .icon_quien_soy {
+      width: 35px;
+      height: 35px;
+      transition: 0.7s;
+      display: inline-block;
+
+    }
+      .icon_quien_soy:hover {
+        background-color: #F23041;
+        transition: 0.7s;
+        border-radius: 100%;
+      }
+    .icon_quien_soy img{
+      width: 30px;
+      height: 30px;
+      margin: 2.5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------*/
+}
