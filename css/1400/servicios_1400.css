@@ -1,18 +1,14 @@
 /* fuentes personalizadas*/
   @font-face {
     font-family: "font_sans";
-    src: url("../../../../font/sans.ttf");
+    src: url("../../font/sans.ttf");
   }
   @font-face {
       font-family: "font_roboto";
-      src: url("../../../../font/roboto.ttf");
-  }
-  @font-face {
-      font-family: "font_roboto_bold";
-      src: url("../../../../font/roboto_bold.ttf");
+      src: url("../../font/roboto.ttf");
   }
 /*-----------------------------------------*/
-@media (min-width: 1024px) and (max-width: 1400px) {
+@media (min-width: 1400px) {
 * {margin: auto; padding: 0;}
   input, label {
     display: none;
@@ -59,7 +55,7 @@ body {
     display: inline-block;
   }
       nav ul li:hover {
-        background: url('../../../../img/header/nav/barra_nav.png') no-repeat;
+        background: url('../../img/header/nav/barra_nav.png') no-repeat;
         background-position: bottom;
         background-size: 100% 4px;
         transition: 0.7s;
@@ -80,41 +76,85 @@ body {
         transition: color 0.7s;
       }
 /*----------------------*/
-/*----------TRABAJO---------*/
-#trabajo {
+
+/*----------SERVICIOS------------*/
+#servicios {
   width: 100%;
   height: auto;
   padding-top: 80px;
 }
-.trabajo {
-  width: 80%;
-  height: auto;
-}
-  .titulo_trabajo {
+  .servicios {
     width: 100%;
-    height: 50px;
+    height: auto;
+  }
+  .titulo_servicios {
+    width: 80%;
+    height: 90px;
+    margin-top: 30px;
     margin-bottom: 30px;
   }
-    .titulo_trabajo a {
-      text-decoration: none;
-      color: #F23041;
-    }
-    .titulo_trabajo h1 {
+    .titulo_servicios h1 {
       font-family: "font_sans";
-      font-size: 2rem;
+      font-size: 4rem;
       color: #F23041;
     }
-    .img_trabajo {
-      margin: auto;
-      display: block;
+  #color1 {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #color2 {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1B0126;
+  }
+  .caja_servicios {
+    width: 60%;
+    height: 300px;
+  }
+    .titulo_caja_servicios {
+      width: 100%;
+      height: 60px;
+      margin-bottom: 30px;
     }
-    .img_trabajo img{
-      width: 90%;
+      .titulo_caja_servicios h1 {
+        font-family: "font_sans";
+        font-size: 2.5rem;
+        color: #56BFAC;
+      }
+    .cuerpo_caja_servicios {
+      width: 100%;
       height: auto;
-      margin: auto;
-      display: block;
-      margin-bottom: 50px;
     }
+      .texto_caja {
+        width: 50%;
+        height: auto;
+        float: left;
+        padding-right: 20px;
+      }
+        .texto_caja p {
+          font-family: "font_roboto";
+          font-size: 1rem;
+          line-height: 2rem;
+          color: #fff;
+        }
+      .lista_caja {
+        width: 20%;
+        height: auto;
+        float: right;
+        margin-right: 5%;
+        padding-right: 20px;
+      }
+        .lista_caja {
+          font-family: "font_roboto";
+          font-size: 0.8rem;
+          line-height: 1.5rem;
+          color: #F23041;
+        }
+/*----------------------*/
 
 /*----------FOOTER---------*/
 
@@ -126,7 +166,7 @@ body {
   background-color: #090921;
 }
 .footer {
-  width: 80%;
+  width: 70%;
   height: 300px;
 }
 .icon_footer {
@@ -190,22 +230,22 @@ body {
       border-radius: 100%;
     }
   .icon_contacto_em {
-    background: url('../../../../img/footer/mail.png') no-repeat;
+    background: url('../../img/footer/mail.png') no-repeat;
   }
   .icon_contacto_wha {
-    background: url('../../../../img/footer/wha.png') no-repeat;
+    background: url('../../img/footer/wha.png') no-repeat;
   }
   .icon_contacto_ins {
-    background: url('../../../../img/footer/ins.png') no-repeat;
+    background: url('../../img/footer/ins.png') no-repeat;
   }
   .icon_contacto_be {
-    background: url('../../../../img/footer/be.png') no-repeat;
+    background: url('../../img/footer/be.png') no-repeat;
   }
   .icon_contacto_fa {
-    background: url('../../../../img/footer/face.png') no-repeat;
+    background: url('../../img/footer/face.png') no-repeat;
   }
   .icon_contacto_gi {
-    background: url('../../../../img/footer/gi.png') no-repeat;
+    background: url('../../img/footer/gi.png') no-repeat;
   }
 /*----------------------*/
 }

@@ -7,13 +7,9 @@
       font-family: "font_roboto";
       src: url("../../font/roboto.ttf");
   }
-  @font-face {
-      font-family: "font_roboto_bold";
-      src: url("../../font/roboto_bold.ttf");
-  }
 /*-----------------------------------------*/
-@media (min-width: 1024px) and (max-width: 1400px) {
-*  {margin: auto; padding: 0;}
+@media (min-width: 1400px) {
+* {margin: auto; padding: 0;}
   input, label {
     display: none;
   }
@@ -80,153 +76,176 @@ body {
         transition: color 0.7s;
       }
 /*----------------------*/
-
-/*-------CONTAME---------*/
-
- #contactame {
-   width: 100%;
-   height: auto;
-   padding-top: 80px;
- }
- .contactame {
-   width: 100%;
-   height: auto;
-   padding-top: 30px;
-   padding-bottom: 30px;
- }
- .titulo_contactame {
-   width: 80%;
-   height: 50px;
-   padding-bottom: 30px;
-   margin-bottom: 50px;
- }
-  .titulo_contactame h1 {
+/*----------TRABAJOS---------*/
+#trabajos {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+}
+.trabajos {
+  width: 80%;
+  height: auto;
+}
+.titulo_trabajos {
+  width: 100%;
+  height: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+  .titulo_trabajos h1 {
     font-family: "font_sans";
     font-size: 4rem;
     color: #F23041;
   }
 
-  #color2 {
+  #caja_trabajo {
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+    margin: 3px;
+    display: inline-flex;
     background-color: #1B0126;
   }
-  .info_contactame {
-    width: 80%;
-    height: 400px;
-    padding: 20px;
-    display: flex;
-  }
-    .img_contactame {
-      width: 250px;
-      height: 250px;
-      margin: 30px;
-      background: url('../../img/contacto/avatar.png') no-repeat;
-      background-size: 100% 100%;
-    }
-
-  .links_contactame {
-    width: 600px;
-    height: auto;
-    margin: 20px;
-    display: flex;
-  }
-
-  .escribeme_contactame, .redes_contactame {
-    width: 50%;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 60px;
-  }
-  #titulo_links h2{
-    font-family: "font_sans";
-    font-size: 1.2rem;
-    color: #FFF;
-    display: block;
-    margin-bottom: 50px;
-  }
-
-  .linea_links {
-    width: 200px;
-    height: 50px;
-    margin-top: 20px;
-    margin-left: 20px;
-    padding-left: 5px;
-    border-radius: 50px;
-  }
-      .linea_links:hover {
-        background-color: #56BFAC;
-        border-radius: 25px;
-        transition: 0.7s;
-      }
-      .linea_links a {
+      #caja_trabajo a {
         text-decoration: none;
       }
 
-    #icon_linea {
-      width: 40px;
-      height: 40px;
-      float: left;
-      margin-top: 5px;
-    }
-      #icon_linea img {
-        width: 40px;
-        height: 40px;
-      }
-    .text_linea {
-      width: 150px;
-      height: 35px;
-      margin-left: 40px;
-      padding-left: 10px;
-      padding-top: 15px;
-    }
-      .text_linea p {
-        font-family: "font_roboto_bold" ;
-        font-size: 1rem;
-        color: #F23041;
-      }
-
- .vitae_contactame {
-   width: 80%;
-   height: auto;
- }
-  .botton_vitae {
-    width: 230px;
-    height: 60px;
-    margin: 30px;
-    padding: 20px;
-    padding-right: 40px;
-    background-color: #F23041;
-    border-radius: 50px;
-    transition: 0.7s;
-  }
-    a {
-      text-decoration: none;
-    }
-    .botton_vitae h2 {
-      font-family: "font_sans";
-      font-size: 1.4rem;
-      color: #FFF;
-      text-align: center;
-      float: left;
-      display: block;
-      margin-left: 19px;
-    }
-    .botton_vitae img {
-      width: 40px;
-      height: 40px;
-      margin-top: 10px;
-      float: right;
-    }
-
-    .botton_vitae:hover {
-      background-color: #56BFAC;
+    #img_hover_trabajo:hover {
+      background-position: center;
+      background-size: 100% 100%;
       transition: 0.7s;
     }
 
+    #img_hover_trabajo {
+      width: 240px;
+      height: 240px;
+      background-color: #1B0126;
+      background-position: center;
+      background-size: 100% 100%;
+      transition: 0.7s;
+    }
+    .titulo_caja_trabajo {
+      padding-left: 5px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      font-family: "font_sans";
+      font-size: 0.8rem;
+      color: #56BFAC;
+    }
+    .descripcion_caja_trabajo {
+      font-family: "font_roboto";
+      font-size: 0.6rem;
+      color: #FFF;
+      padding-left: 5px;
+    }
+
+.img_caja_garabato {
+  background: url('../../img/portafolio/garabato.png') no-repeat;
+}
+    .img_caja_garabato:hover {
+      background: url('../../img/portafolio/garabato2.png') no-repeat;
+    }
+
+.img_caja_filbo {
+  background: url('../../img/portafolio/filbo.png') no-repeat;
+}
+    .img_caja_filbo:hover {
+      background: url('../../img/portafolio/filbo2.png') no-repeat;
+    }
+
+.img_caja_mano {
+  background: url('../../img/portafolio/mano.png') no-repeat;
+}
+    .img_caja_mano:hover {
+      background: url('../../img/portafolio/mano2.png') no-repeat;
+    }
+.img_caja_comic {
+  background: url('../../img/portafolio/comic.png') no-repeat;
+}
+    .img_caja_comic:hover {
+      background: url('../../img/portafolio/comic2.png') no-repeat;
+    }
+
+.img_caja_mano {
+  background: url('../../img/portafolio/mano.png') no-repeat;
+}
+    .img_caja_mano:hover {
+      background: url('../../img/portafolio/mano2.png') no-repeat;
+    }
+
+.img_caja_lata {
+  background: url('../../img/portafolio/lata.png') no-repeat;
+}
+    .img_caja_lata:hover {
+      background: url('../../img/portafolio/lata2.png') no-repeat;
+    }
+
+.img_caja_brutal {
+  background: url('../../img/portafolio/brutal.png') no-repeat;
+}
+    .img_caja_brutal:hover {
+      background: url('../../img/portafolio/brutal2.png') no-repeat;
+    }
+
+.img_caja_wild {
+  background: url('../../img/portafolio/wild.png') no-repeat;
+}
+    .img_caja_wild:hover {
+      background: url('../../img/portafolio/wild2.png') no-repeat;
+    }
 
 
-
-
+/*-------PROYECTOS--------*/
+#proyectos {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  background-color: #1B0126;
+}
+.proyectos {
+  width: 80%;
+  height: auto;
+}
+  .titulo_proyectos {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 90px;
+  }
+    .titulo_proyectos h1 {
+      font-family: "font_sans";
+      font-size: 4rem;
+      color: #F23041;
+    }
+  .contenedor_proyecto {
+    width: 70%;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+    .titulo_proyecto {
+      width: 100%;
+      height: 60px;
+      margin-bottom: 20px;
+    }
+      .titulo_proyecto h2 {
+        font-family: "font_sans";
+        font-size: 3rem;
+        color: #56BFAC;
+      }
+    .texto_proyecto {
+      padding-right: 20%;
+      width: auto;
+      height: auto;
+    }
+      .texto_proyecto p {
+        font-family: "font_roboto";
+        font-size: 1rem;
+        color: #FFF;
+        line-height: 1.5rem;
+      }
 
 /*----------FOOTER---------*/
 
@@ -238,7 +257,7 @@ body {
   background-color: #090921;
 }
 .footer {
-  width: 80%;
+  width: 70%;
   height: 300px;
 }
 .icon_footer {

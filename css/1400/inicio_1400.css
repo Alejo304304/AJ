@@ -9,13 +9,409 @@
   }
 /*-----------------------------------------*/
 @media (min-width: 1400px) {
-	img {
-		display: none;
-	}
-	}
+* {
+  margin: auto;
+  padding: 0;
+  transition-duration: 0.5s;
+  transition: 0.5s;
+}
+  .respmenu input, .respmenu label {
+    display: none;
+  }
+body {
+  background: #090921;
+}
+/*---BARRA DE NAVEGACION--*/
+#barra_navegacion {
+  width: 100%;
+  height: 70px;
+  padding-left: 10%;
+  padding-right: 12%;
+  background-color: #090921;
+  position: fixed;
+  box-shadow: 2px 2px 5px #090921;
+}
+   .barra_navegacion {
+    width: 75%;
+    height: 70px;
+  }
+  .icon_nav {
+    width: 150px;
+    height: 60px;
+    margin-left: 5%;
+    margin-top: 10px;
+    float: left;
+  }
+  .icon_nav img {
+    height: 40px;
+    margin: 10px;
+  }
+  .respmenu {
+    float: right;
+    width: 400px;
+    height: 30px;
+    margin-right: 20%;
+    margin-top: 25px;
+  }
 
+  nav ul li{
+    margin-right: 30px;
+    padding-bottom: 8px;
+    display: inline-block;
+  }
+      nav ul li:hover {
+        background: url('../../img/header/nav/barra_nav.png') no-repeat;
+        background-position: bottom;
+        background-size: 100% 4px;
+        transition: 0.7s;
+      }
+  nav ul li a {
+    color: #fff;
+    font-family: "font_sans";
+    font-size: 16px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.7s;
+  }
+      nav ul li a:hover {
+        transition-duration: 0.7s;
+        transition: color 0.7s;
+      }
+/*----------------------*/
+/*--------HEAD-MAIN---------*/
+#head_main {
+  width: 100%;
+  height: 650px;
+  padding-top: 90px;
+}
+.head_main {
+  width: 75%;
+  height: 550px;
+}
+.freelance_head_main {
+  width: 400px;
+  height: 200px;
+  margin: 0px;
+  margin-left: 5%;
+}
+  .freelance_head_main h1 {
+    font-family: "font_sans";
+    font-size: 5rem;
+    color: #F23041;
+  }
 
+.alejo_head_main {
+  width: 350px;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: 150px;
+}
+  .alejo_head_main h2{
+    font-family: "font_sans";
+    font-size: 3rem;
+    color: #fff;
+  }
+.dino_head_main {
+  width: 600px;
+  height: 600px;
+  margin-top: -550px;
+  float: right;
+  background: url('../../img/main/head_main/dino_main.png') no-repeat;
+  background-position: right;
+  background-size:  auto 100%;
+}
 
+#color2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #1B0126;
+}
+/*------------Quien-soy-----------*/
 
+#quien_soy {
+  width: 100%;
+  height: 350px;
+}
+  .quien_soy {
+    width: 70%;
+    height: 350px;
+  }
+  .titulo_quien_soy {
+    width: 100%;
+    height: 90px;
+    margin: 0;
+  }
+      .titulo_quien_soy h1{
+        font-family: "font_sans";
+        font-size: 4rem;
+        color: #F23041;
+      }
+  .texto_quien_soy {
+    width: 50%;
+    height: 100px;
+    margin: 0;
+    padding-top: 20px;
+  }
+      .texto_quien_soy p {
+        font-family: "font_roboto";
+        font-size: 1rem;
+        color: #fff;
 
+      }
+  .subtitulo_quien_soy {
+    width: 70%;
+    height: 160px;
+    margin: 0;
+  }
+      .subtitulo_quien_soy h2 {
+        font-family: "font_sans";
+        font-size: 3rem;
+        padding: 10px;
+        color: #56BFAC;
+      }
+  .img_quien_soy {
+    width: 220px;
+    height: 220px;
+    float: right;
+    background-color: #090921;
+    border-radius: 100%;
+    margin-top: -330px;
+    margin-right: 50px;
+    transition: 0.7s;
+  }
+    .img_quien_soy:hover {
+      background-color: #F23041;
+      border-radius: 100%;
+      cursor: pointer;
+      transition: 0.7s;
+    }
+    .img_quien_soy img {
+      width: 220px;
+      height: 220px;
+    }
+  .icons_quien_soy {
+    width: 220px;
+    height: 50px;
+    float: right;
+    margin-top: -80px;
+    margin-right: 50px;
+    display: flex;
+  }
+    .icon_quien_soy {
+      width: 35px;
+      height: 35px;
+      transition: 0.7s;
+      display: inline-block;
+
+    }
+      .icon_quien_soy:hover {
+        background-color: #F23041;
+        transition: 0.7s;
+        border-radius: 100%;
+      }
+    .icon_quien_soy img{
+      width: 30px;
+      height: 30px;
+      margin: 2.5px;
+    }
+#puedo_hacer {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+  .puedo_hacer {
+    width: 70%;
+  }
+  .titulo_puedo_hacer {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 15px;
+  }
+    .titulo_puedo_hacer h1{
+      font-family: "font_sans";
+      font-size: 4rem;
+      color: #F23041;
+    }
+
+  .modulo_puedo_hacer {
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: inline-table;
+  }
+    .modulo_puedo_hacer a {
+      font-family: "font_sans";
+      font-size: 3rem;
+      color: #56BFAC;
+      text-decoration: none;
+      margin-bottom: 15px;
+      display: block;
+      transition: 0.7s;
+    }
+        .modulo_puedo_hacer a:hover {
+          color: #F23041;
+          transition: 0.7s;
+        }
+    .modulo_puedo_hacer p {
+      font-family: "font_roboto";
+      font-size: 1rem;
+      color: #fff;
+      line-height: 1.5rem;
+    }
+
+/*------------Software-----------*/
+
+#software {
+   width: 100%;
+   height: auto;
+ }
+ .software {
+   width: 70%;
+   height: 350px;
+   padding: 15px;
+ }
+ .titulo_software {
+   width: 100%;
+   height: 90px;
+ }
+  .titulo_software h1 {
+    font-family: "font_sans";
+    font-size: 4rem;
+    color: #F23041;
+  }
+  .contenedor_cajas_software {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+    .caja_software {
+      width: 150px;
+      height: 190px;
+      float: left;
+      margin-right: 30px;
+    }
+      .caja_software h1 {
+        font-family: "font_roboto";
+        font-size: 0.9rem;
+        color: #fff;
+        display: block;
+        margin-top: 5px;
+        margin-left: 5px;
+      }
+    .text_caja_software {
+      width: 150px;
+      height: 150px;
+      background-color: #F23041;
+    }
+      .text_caja_software p{
+        font-family: "font_sans";
+        font-size: 3rem;
+        color: #fff;
+        padding-top: 50px;
+        text-align: center;
+      }
+        .text_caja_software p:hover {
+          font-size: 3.5rem;
+          padding-top: 40px;
+        }
+/*---------------------*/
+
+/*----------FOOTER---------*/
+
+#footer {
+  width: 100%;
+  height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #090921;
+}
+.footer {
+  width: 70%;
+  height: 300px;
+}
+.icon_footer {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+}
+    .icon_footer img {
+      width: auto;
+      height: 50px;
+    }
+.columnas_footer {
+  width: auto;
+  height: 250px;
+  padding-right: 50px;
+  float: right;
+  display: inline-flex;
+}
+  .columnas_footer a {
+    text-decoration: none;
+  }
+.columna {
+  width: 200px;
+  height: auto;
+  margin: 15px;
+  padding: 15px;
+}
+  .columna h1 {
+    font-family: "font_roboto_bold";
+    font-size: 1rem;
+    color: #fff;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .columna p {
+    font-family: "font_roboto";
+    font-size: 0.8rem;
+    color: #fff;
+    line-height: 1rem;
+    display: block;
+    padding-top: 4px;
+  }
+
+  .contendor_fila {
+    width: auto;
+    height: 25px;
+    padding-left: 35px;
+    margin: 5px;
+  }
+
+  .contendor_fila div {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-left: -40px;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+    .contendor_fila div:hover{
+      background-color: #F23041;
+      border-radius: 100%;
+    }
+  .icon_contacto_em {
+    background: url('../../img/footer/mail.png') no-repeat;
+  }
+  .icon_contacto_wha {
+    background: url('../../img/footer/wha.png') no-repeat;
+  }
+  .icon_contacto_ins {
+    background: url('../../img/footer/ins.png') no-repeat;
+  }
+  .icon_contacto_be {
+    background: url('../../img/footer/be.png') no-repeat;
+  }
+  .icon_contacto_fa {
+    background: url('../../img/footer/face.png') no-repeat;
+  }
+  .icon_contacto_gi {
+    background: url('../../img/footer/gi.png') no-repeat;
+  }
+/*----------------------*/
 }
