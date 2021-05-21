@@ -120,7 +120,7 @@ body {
       height: 250px;
       margin: 30px;
       background: url('../../img/contacto/avatar.png') no-repeat;
-      background-size: 100% 100%;
+      background-size: 100% auto;
     }
 
   .links_contactame {
@@ -222,10 +222,6 @@ body {
       background-color: #56BFAC;
       transition: 0.7s;
     }
-
-
-
-
 
 
 /*----------FOOTER---------*/

@@ -8,8 +8,7 @@
       src: url("../../font/roboto.ttf");
   }
 /*-----------------------------------------*/
-@media (min-width: 410px) and (max-width: 515px) {
-
+@media (min-width: 320px) and (max-width: 410px) {
 * {
 	margin: auto;
 	padding: 0;
@@ -45,7 +44,7 @@ body {
      margin-left: 80%;
      box-shadow: 2px 2px 5px #090921;
     }
-	.respmenu label img {
+	label img {
 	  width: 50px;
 	  height: auto;
 	}
@@ -115,14 +114,6 @@ body {
 /*-------------------------------------*/
 main {
   display: none;
-
-
-
-
-
-
-
-
 }
 /*----------FOOTER---------------*/
 #footer {

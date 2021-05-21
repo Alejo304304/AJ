@@ -10,51 +10,51 @@
 /*-----------------------------------------*/
 @media (min-width: 320px) and (max-width: 410px) {
 * {
-	margin: 0;
-	padding: 0;}
+	margin: auto;
+	padding: 0;
+  transition: 0.7s;
+}
+body {
+  background-color: #090921;
+}
 
 /*-------BARRA DE NAVEGACION-------*/
 
 	#barra_navegacion {
-	  background-color: #190022;
+	  background-color: #090921;
 	  width: 100%;
 	  height: 80px;
 	  position: fixed;
-	  box-shadow: 2px 2px 5px #190022;
+	  box-shadow: 2px 2px 5px #090921;
 	}
 	.icon_nav {
-	  float: right;
+	  float: left;
     width: 60px;
-    height: 60px;
+    height: 50px;;
 	  position: absolute;
-    top: 10px;
-    right: 10px;
-    background: url('../../img/nav/icon_nav2.png') no-repeat;
-    background-position: center;
-    background-size: auto 50px;
+    margin-left: 20px;
 	}
 	.icon_nav img {
-	  float: left;
-	  margin-top: 25px;
 	  width: 150px;
 	  height: auto;
 	 }
-   .icon_nav img {
-     display: none;
-   }
+   label {
+     display: block;
+     margin-top: 15px;
+     margin-left: 80%;
+     box-shadow: 2px 2px 5px #090921;
+    }
 	label img {
-	  width: 40px;
+	  width: 50px;
 	  height: auto;
-    margin-top: 20px;
-	  margin-left: 20px;
 	}
 	.respmenu {
-	  float: left;
-	  width: 90%;
+	  width: 100%;
 	}
 	.respmenu a {
 	  color: #fff;
 	  text-decoration: none;
+    text-align: right;
 	  display: block;
 	  padding: 30px 40px;
 	  max-width: 200px;
@@ -89,11 +89,11 @@
 	  min-height: 50px;
 	}
 	nav ul {
-	  background-color: #190022;
-	  box-shadow: 2px 2px 5px #190022;
+	  background-color: #090921;
+	  box-shadow: 2px 2px 5px #090921;
 	}
 	nav ul li:hover {
-	  background-color: #FBCE00;
+	  background-color: #F23041;
 	}
 	nav ul li:hover {
 	  transition: color 1.8s;
@@ -111,18 +111,110 @@
 	  display: none;
 	}
 
+/*-------------------------------------*/
+main {
+  display: none;
+
+
+
+
+
+
+
+
+}
+/*----------FOOTER---------------*/
+#footer {
+  width: 100%;
+  height: 280px;
+  padding-top: 100px;
+  background-color: #090921;
+}
+  .footer {
+    width: 90%;
+    height: auto;
+  }
+    .icon_footer {
+      width: 100%;
+      height: 50px;
+    }
+      .icon_footer img {
+        width: 110px;
+        height: auto;
+      }
+  .columna h1 {
+    display: none;
+  }
+  .text_servicios p{
+    display: none;
+  }
+
+  .columnas_footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  .columna {
+    width: 45%;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+  .contendor_fila {
+    width: 90px;
+    height: 35px;
+    margin-top: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  .contendor_fila p {
+    display: block;
+    padding-top: 3px;
+    font-family: "font_roboto" ;
+    font-size: 1rem;
+    color: #FFF;
+  }
+
+  .contendor_fila div {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-left: -30px;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+    .contendor_fila div:hover{
+      background-color: #F23041;
+      border-radius: 100%;
+    }
+  .icon_contacto_em {
+    background: url('../../img/footer/mail.png') no-repeat;
+  }
+  .icon_contacto_wha {
+    background: url('../../img/footer/wha.png') no-repeat;
+  }
+  .icon_contacto_ins {
+    background: url('../../img/footer/ins.png') no-repeat;
+  }
+  .icon_contacto_be {
+    background: url('../../img/footer/be.png') no-repeat;
+  }
+  .icon_contacto_fa {
+    background: url('../../img/footer/face.png') no-repeat;
+  }
+  .icon_contacto_gi {
+    background: url('../../img/footer/gi.png') no-repeat;
+  }
+
+
+
+
+
+
+
 
 
 /*-------------------------------------*/
-	main {
-		background-color: red;
-		width: 100%;
-		height: 900px;
-	}
-	h1 {
-		font-size: 100px;
-	}
-
-
-
 }
