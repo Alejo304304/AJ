@@ -12,7 +12,6 @@
 * {
 	margin: auto;
 	padding: 0;
-  transition: 0.7s;
 }
 body {
   background-color: #090921;
@@ -109,8 +108,86 @@ body {
 	}
 
 /*-------------------------------------*/
-main {
-  display: none;
+
+/*----SERVICIOS-----*/
+
+#servicios {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+}
+  .servicios {
+    width: 100%;
+    height: auto;
+  }
+  .titulo_servicios {
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+    .titulo_servicios h1 {
+      font-family: "font_sans";
+      font-size: 2rem;
+      color: #F23041;
+    }
+  #color2 {
+    width: 100%;
+    height: auto;
+    background-color: #1B0126;
+  }
+  .caja_servicios {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .titulo_caja_servicios {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    margin-bottom: 5px;
+  }
+    .titulo_caja_servicios h1 {
+      font-family: "font_sans";
+      font-size: 1.6rem;
+      color: #F23041;
+    }
+  .texto_caja {
+    display: none;
+  }
+  .lista_caja {
+    width: 95%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+    .lista_caja p {
+      font-family: "font_roboto";
+      font-size: 0.7rem;
+      color: #FFF;
+      line-height: 1.5rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -204,7 +281,6 @@ main {
   .icon_contacto_gi {
     background: url('../../img/footer/gi.png') no-repeat;
   }
-
 
 
 

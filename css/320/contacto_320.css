@@ -12,7 +12,6 @@
 * {
 	margin: auto;
 	padding: 0;
-  transition: 0.7s;
 }
 body {
   background-color: #090921;
@@ -108,9 +107,121 @@ body {
 	  display: none;
 	}
 
-/*-------------------------------------*/
-main {
-  display: none;
+/*-------DONDE-ENCONTRARME---------*/
+  #contactame {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+  }
+  .contactame {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .titulo_contactame {
+    width: 100%;
+    height: auto;
+  }
+    .titulo_contactame h1 {
+      font-family: "font_sans";
+      font-size: 2rem;
+      color: #F23041;
+    }
+  #color2 {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .info_contactame {
+    width: 100%;
+    height: auto;
+  }
+  .img_contactame {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 150px;
+    background: url('../../img/contacto/avatar.png') no-repeat;
+    background-size: 150px 150px;
+  }
+
+.vitae_contactame {
+  width: 100%;
+  height: 70px;
+  float: left;
+  margin-top: -420px;
+}
+  .botton_vitae {
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    background-color: #F23041;
+    border-radius: 50px;
+  }
+    .botton_vitae h2 {
+      font-family: "font_sans";
+      font-size: 1.5rem;
+      color: #FFF;
+      display: block;
+      margin-right: 30px;
+      text-align: center;
+    }
+      .vitae_contactame img{
+        width: 30px;
+        height: auto;
+        float: right;
+        display: block;
+        margin-right: 10px;
+        margin-top: -40px;
+      }
+
+  .links_contactame {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+  }
+    .escribeme_contactame, .redes_contactame {
+      width: 200px;
+      height: auto;
+      margin-right: 10px;
+    }
+    .escribeme_contactame {
+      margin-top: -0px;
+    }
+  #titulo_links {
+    display: none;
+  }
+  .linea_links {
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  #icon_linea{
+    width: 40px;
+    height: 40px;
+    float: left;
+  }
+    #icon_linea img{
+      width: 40px;
+      height: 40px;
+    }
+  .text_linea {
+    width: auto;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5PX;
+  }
+    .text_linea p{
+      font-family: "font_roboto_bold";
+      font-size: 1rem;
+      color: #F23041;
+    }
+
+
 
 
 
