@@ -13,7 +13,6 @@
 * {
 	margin: auto;
 	padding: 0;
-  transition: 0.7s;
 }
 body {
   background-color: #090921;
@@ -30,7 +29,7 @@ body {
 	.icon_nav {
 	  float: left;
     width: 60px;
-    height: 50px;;
+    height: 50px;
 	  position: absolute;
     margin-left: 20px;
 	}
@@ -110,17 +109,223 @@ body {
 	}
 
 /*-------------------------------------*/
-main {
-  display: none;
+  #head_main {
+    width: 100%;
+    height: 500px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+  }
+    .head_main {
+      width: 90%;
+      height: 550px;
+    }
+      .freelance_head_main {
+        width: 90%;
+        height: 100px;
+        float: left;
+        padding: 20px;
+      }
+        .freelance_head_main h1{
+          font-family: "font_sans";
+          font-size: 2.5rem;
+          color: #F23041;
+        }
+      .alejo_head_main {
+        width: 90%;
+        height: 100px;
+        float: left;
+        padding: 20px;
+      }
+        .alejo_head_main h2 {
+          font-family: "font_sans";
+          font-size: 2rem;
+          color: #FFFF;
+        }
+      .dino_head_main {
+        width: 400px;
+        height: 400px;
+        background-color: grey;
+        margin-top: -400px;
+        margin-right: -0px;
+        background: url('../../img/main/head_main/dino_main.png') no-repeat ;
+        background-position: right;
+        background-size: auto 100%;
+        margin-bottom: 20px;
+      }
+/*-------QUIEN-SOY----*/
 
-
-
-
-
-
-
-
+#color2 {
+  width: 100%;
+  background-color: #1B0126;
 }
+#quien_soy {
+  width: 100%;
+  height: 535px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+  .quien_soy {
+    width: 90%;
+    height: auto;
+  }
+    .titulo_quien_soy {
+      width: 100%;
+      height: 50px;
+      margin-bottom: 20px;
+    }
+      .titulo_quien_soy h1 {
+        font-family: "font_sans";
+        font-size: 2rem;
+        color: #F23041;
+      }
+
+  .texto_quien_soy {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+    .texto_quien_soy p {
+      font-family: "font_roboto";
+      font-size: 0.9rem;
+      color: #FFF;
+      line-height: 1.3rem;
+    }
+  .subtitulo_quien_soy {
+    width: 90%;
+    height: 80px;
+  }
+    .subtitulo_quien_soy h2 {
+      font-family: "font_sans";
+      font-size: 1.4rem;
+      color: #56BFAC;
+    }
+  .img_quien_soy {
+    width: 150px;
+    height: auto;
+    background-color: #F23041;
+    border-radius: 100%;
+  }
+    .img_quien_soy img{
+      width: 150px;
+      height: auto;
+    }
+  .icons_quien_soy {
+    width: 50%;
+    height: 45px;
+    margin-top: 10px;
+    display: flex;
+  }
+    .icons_quien_soy img {
+      width: 27px;
+    }
+    .icon_quien_soy {
+      width: 27px;
+      height: 27px;
+    }
+    .icon_quien_soy:hover {
+      background-color: #F23041;
+      border-radius: 100%;
+    }
+
+/*-------QUE-PUEDO-HACER------*/
+
+#puedo_hacer {
+  width: 100%;
+  height: auto;
+}
+.puedo_hacer {
+  width: 90%;
+  height: auto;
+  padding-top: 10px;
+}
+  .titulo_puedo_hacer {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+    .titulo_puedo_hacer h1 {
+      font-family: "font_sans";
+      font-size: 2rem;
+      color: #F23041;
+    }
+  .modulo_puedo_hacer {
+    width: 95%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+    .modulo_puedo_hacer a {
+      font-family: "font_sans";
+      font-size: 1.6rem;
+      display: block;
+      color: #56BFAC;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .modulo_puedo_hacer p {
+      font-family: "font_roboto";
+      font-size: 1rem;
+      display: block;
+      color: #FFF;
+      line-height: 1.5rem;
+      margin-left: 10px;
+      padding-bottom: 10px;
+    }
+
+/*----Software----*/
+
+#software {
+  width: 100%;
+  height: auto;
+}
+  .software {
+    width: 90%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+    .titulo_software {
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+      .titulo_software h1 {
+        font-family: "font_sans";
+        font-size: 2rem;
+        color: #F23041;
+      }
+    .contenedor_cajas_software {
+      width: 100%;
+      height: 300px;
+    }
+      .caja_software {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        margin-bottom: 30px;
+        float: left;
+        background-color: #F23044;
+      }
+        .caja_software h1 {
+          font-family: "font_roboto";
+          font-size: 0.7rem;
+          color: #FFF;
+          display: block;
+          margin-top: 3px;
+        }
+        .text_caja_software {
+          width: 100px;
+          height: 100px;
+          display: flex;
+          background-color: #F23041;
+        }
+        .text_caja_software p {
+          font-family: "font_sans";
+          font-size: 2rem;
+          color: #FFF;
+          display: block;
+        }
 /*----------FOOTER---------------*/
 #footer {
   width: 100%;
