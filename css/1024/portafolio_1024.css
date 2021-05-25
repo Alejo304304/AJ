@@ -20,6 +20,9 @@
 body {
   background: #090921;
 }
+body:after{
+  display:none; content: url('../../img/portafolio/garabato.png'); 
+}
 /*---BARRA DE NAVEGACION--*/
 #barra_navegacion {
   width: 100%;
@@ -127,6 +130,7 @@ body {
       background-position: center;
       background-size: 100% 100%;
       transition: 0.7s;
+
     }
     .titulo_caja_trabajo {
       padding-left: 5px;
