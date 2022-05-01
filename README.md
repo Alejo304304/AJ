@@ -1,2 +1,2 @@
-# AJ-DESIGNER
-Diseñador Gráfico y estudiante, Alejandro Amezquita;  con experiencia en ilustración vectorial, creación de marca y social media, siempre en busca de nuevos desafíos y creando nuevos proyectos.  
+# AJ_Designer
+Estudiante y apasionado por el diseño gráfico; con experiencia en ilustración digital, creación de marca corporativa y personal, social media. Siempre en busca de nuevos desafíos y nuevos conocimientos
